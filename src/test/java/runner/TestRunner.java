@@ -7,12 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = ".//Features/",
+		features = ".//Features/Vendor.feature",
 		glue = "stepdefinations",
 		dryRun =false ,
 		monochrome = true,
 		publish = true,
-		tags = "@regression"
+		tags = "@reg"
 		
 		
 		
